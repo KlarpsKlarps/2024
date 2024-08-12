@@ -1,0 +1,74 @@
+.button onclick {
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h1{
+    text-align: center;
+
+
+}
+h2{
+    text-align: center;
+
+
+}
+
+a{
+    color:#00b7ff;
+}
+
+img:active{
+    outline-color: hsl(126, 100%, 50%);
+}
+   
+    
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(119, 100%, 34%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(130, 100%, 22%);
+}
+.navbar li{
+    float: left;
+}
+
+
+.button1 {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 3px 1.5px;
+    cursor: pointer;
+} 
