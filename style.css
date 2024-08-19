@@ -75,3 +75,6 @@ img:active{
     margin: 3px 1.5px;
     cursor: pointer;
 } 
+script{
+    size:100%;
+}
