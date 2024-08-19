@@ -44,6 +44,7 @@ img:active{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    width:1000000000000px;
 }
 .navbar a{
     color: rgb(0, 0, 0);
