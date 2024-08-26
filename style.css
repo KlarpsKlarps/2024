@@ -35,7 +35,7 @@ h1{
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: green;
+  background-color: hsl(119, 100%, 34%);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -43,7 +43,7 @@ h1{
 }
 
 #myBtn:hover {
-  background-color: darkgreen;
+  background-color: hsl(119, 100%, 34%);
 }
 
 h4{
@@ -88,7 +88,7 @@ img:active{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: hsl(130, 100%, 22%);
+    background-color: hsl(119, 100%, 34%);
 }
 .navbar li{
     float: left;
