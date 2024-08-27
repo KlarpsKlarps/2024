@@ -24,6 +24,35 @@
  <h1><img src="me.gif" style="width:20%;height:20%"></h1>
  <font style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"<strong><h4>I am a 14 year old person who is learning web development, I like drawing, playing video games, learning piano, watching anime and playing chess. I actually tried to make the website myself.(with a bit of youtube help...) I started coding with <a href="https://scratch.mit.edu/users/BruhToons/">scratch</a> a few years ago and then learned pythom afterwards. Now I am learning CSS and HTML!<a href="https://www.youtube.com/@Bruhtoonszzz"> here is my youtube</a></h4></font><strong>
 
+ </style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
  
+ 
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
  </body>
  </html>
