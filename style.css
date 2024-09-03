@@ -1,6 +1,6 @@
 
 .navbar a:hover{
-    background-color: hsl(119, 100%, 34%);
+    background-color: rgb(0,100,0);
 }
 
 .button onclick {
