@@ -1,4 +1,47 @@
 
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
+
+.button1 {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 3px 1.5px;
+    cursor: pointer;
+} 
+script{
+    size:100%;
+}
+/* Google form mobile */
+@media screen and (max-width:767px) {
+iframe[src*="google.com/forms"] {
+    width: 100% !important;
+    height: 800px;
+    
 
 
 .button onclick {
@@ -55,47 +98,5 @@ a{
 img:active{
     outline-color: hsl(126, 100%, 50%);
 }
-.navbar ul{
-    list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
-}
-.navbar li{
-    float: left;
-}
-
-
-.button1 {
-    background-color: #04AA6D;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 3px 1.5px;
-    cursor: pointer;
-} 
-script{
-    size:100%;
-}
-/* Google form mobile */
-@media screen and (max-width:767px) {
-iframe[src*="google.com/forms"] {
-    width: 100% !important;
-    height: 800px;
 }
 }
