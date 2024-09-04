@@ -55,27 +55,22 @@ a{
 img:active{
     outline-color: hsl(126, 100%, 50%);
 }
-   
-    
 .navbar ul{
     list-style-type: none;
-    background-color: hsl(119, 100%, 34%);
+    background-color: hsl(0, 0%, 25%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-
-    
-
 }
 .navbar a{
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-    background-color: hsl(119, 100%, 34%);
+    background-color: hsl(0, 0%, 10%);
 }
 .navbar li{
     float: left;
