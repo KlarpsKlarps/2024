@@ -5,6 +5,7 @@
     background:darkgreen;
     color:black;
     display: flex;
+    text-align:center;
 }
 
 h1{
