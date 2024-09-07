@@ -35,9 +35,7 @@
 h1{
     text-align:center;
 } 
-h1{
-    text-align:center;
-}
+
 
 
 .button1 {
@@ -51,10 +49,7 @@ h1{
     font-size: 30px;
     margin: 3px 1.5px;
     cursor: pointer;
-} 
-script{
-    size:100%;
-}
+
 /* Google form mobile */
 @media screen and (max-width:767px) {
 iframe[src*="google.com/forms"] {
