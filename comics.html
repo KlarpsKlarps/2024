@@ -30,68 +30,24 @@
             <li><a href="about.html"><strong><font size="+3" style="font-size:3vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">About</font></strong></a></li>
         </ul>
     </nav>
-       <style>
-.navbar ul{
-    list-style-type: none;
-    background-color: green;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: darkgreen;
-}
-.navbar li{
-    float: left;
-}
 
-h1{
-    text-align:center;
-} 
 </style>
         <font style= "font-size:2vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h1>COMICS!</h1>
         <h1><img src="gifmaker_me (1).gif" style="width:20%;height:20%"></h1>
         <hr style="height:20px;border:none;color:#006e2a;background-color:#053b00;">
         <font style= "font-size:2vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h2>speed</h2>
-        <h1><img src="comic1.jpg" style="width:40%;height:40%"></h1>
+        <div class="comics"><h1><img src="comic1.jpg" style="width:40%;height:40%"></h1></div>
         <hr style="height:20px;border:none;color:#006e2a;background-color:#053b00;">
 </style>
 </head>
 <body>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
  
  
 
-<script>
-// Get the button
-let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
 
 
     </body>
