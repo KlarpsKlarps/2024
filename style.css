@@ -1,11 +1,11 @@
     .footer{
-    margin-top:150;
+    margin-top:20;
     padding: 3px;
     background:darkgreen;
     color:white;
     display: flex;
     text-align: center;
-    length:400px;
+    length:100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .comics {
