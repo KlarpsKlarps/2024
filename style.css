@@ -117,5 +117,7 @@ a{
 img:active{
     outline-color: hsl(126, 100%, 50%);
 }
-}
+
+about{
+    text-align:center;
 }
