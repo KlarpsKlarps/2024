@@ -9,6 +9,32 @@
     text-align:center;
 }
 
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: green;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: darkgreen;
+}
+.navbar li{
+    float: left;
+}
+
+h1{
+    text-align:center;
+} 
 h1{
     text-align:center;
 }
