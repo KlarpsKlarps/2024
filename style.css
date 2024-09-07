@@ -35,6 +35,9 @@ head{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+     font-size:3vw;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
     
 .navbar a{
     color: black;
@@ -42,11 +45,13 @@ head{
     padding: 15px;
     display: block;
     text-align: center;
-   
+   font-size:3vw;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navbar a:hover{
     background-color: darkgreen;
-    
+    font-size:3vw;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navbar li{
     float: left;
