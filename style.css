@@ -6,13 +6,13 @@ head{
 }
 
 .comics {
-    transition:transform 0.25s ease;
+    transition: transform .2s;
      min-size:30%;
 }
 
 .comics:hover {
-    -webkit-transform:scale(1.3); /* or some other value */
-    transform:scale(1.3);
+    -webkit-transform:scale(1.2); /* or some other value */
+    transform: scale(1.2);
 }
 
 
