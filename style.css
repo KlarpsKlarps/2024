@@ -12,7 +12,7 @@ head{
 
 .comics {
     transition: transform .2s;
-     min-size:30%;
+     min-size:10%;
 }
 
 .comics:hover {
