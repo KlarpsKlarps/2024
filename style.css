@@ -1,3 +1,8 @@
+h2{
+     text-align: center;
+}
+
+
 body{
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -78,12 +83,6 @@ main{
 h1{
     text-align: center;
     img-align: center;
- 
-
-
-
-h4{
-    text-align: center;
 
 }
 img{
@@ -91,8 +90,7 @@ img{
 
 
 }
-h2{
-    text-align: center;
+
 
 
 }
@@ -104,3 +102,5 @@ a{
 about{
     text-align:center;
 }
+
+
