@@ -28,8 +28,8 @@ head{
 
 
 .footer{
-    margin-top:20;
-    padding: none;
+    margin:0;
+    padding: 0;
     background:darkgreen;
     color:white;
     display: flex;
