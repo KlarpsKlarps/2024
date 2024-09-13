@@ -29,7 +29,7 @@ head{
 
 .footer{
     margin-top:20;
-    padding: 3px;
+    padding: none;
     background:darkgreen;
     color:white;
     display: flex;
