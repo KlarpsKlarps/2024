@@ -38,19 +38,18 @@
         <hr style="height:20px;border:none;color:#006e2a;background-color:#053b00;">
         <font style= "font-size:2vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h2>speed</h2>
         <img onclick=comicmodal() src="comic1.jpg" style="width:30%">
-        <dialog id="comic">       
+        <dialog id="comic">
+               <form>
                <img src="comic1.jpg" style="width:30%">
-               
+               </form>
         </dialog>     
-       <script>
-              const dialog = document.getElementById("comic")
-              function comicmodal(){
-               dialog.showModal()
-              }
-              function no(){
-               dialog.close()
-              }       
+<script>
+const dialog = document.getElementById("comic")
               
+       function comicmodal(){
+       dialog.showModal()
+       }
+  
 
        </script>
  </body>
