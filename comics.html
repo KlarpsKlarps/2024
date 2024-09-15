@@ -38,27 +38,12 @@
         <hr style="height:20px;border:none;color:#006e2a;background-color:#053b00;">
         <font style= "font-size:2vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h2>speed</h2>
         
-               
-               <img src="comic1.jpg" style="width:30%;cursor:zoom-in"
-  onclick="document.getElementById('modal01').style.display='block'">
-
-  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-
-      <img src="comic1.jpg" style="width:70%">
-    </div>
-  </div>
-</style>
-</head>
-<body>
-
-
-
- 
- 
-
-
-
-
-    </body>
+        <dialog id="comic">       
+               <img src="comic1.jpg" style="width:30%;cursor:zoom-in">
+        </dialog>     
+       <script>
+              const dialog = document.getElementById("comic")
+              dialog.showModal()
+       </script>
+ </body>
 </html>
