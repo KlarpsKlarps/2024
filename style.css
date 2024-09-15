@@ -29,8 +29,8 @@ head{
 
 
 .footer{
-    margin:0;
-    padding: 0;
+    margin:0px;
+    padding: 0px;
     background:darkgreen;
     color:black;
     display: flex;
