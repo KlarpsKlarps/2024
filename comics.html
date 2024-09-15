@@ -40,7 +40,8 @@
         <img onclick=comicmodal() src="comic1.jpg" style="width:30%">
         <dialog id="comic">
                <form>
-               <img src="comic1.jpg" style="width:30%">
+               <img src="comic1.jpg" style="width:70%">
+              <button onclick=no()>CLOSE</button>
                </form>
         </dialog>     
 <script>
@@ -48,6 +49,9 @@ const dialog = document.getElementById("comic")
               
        function comicmodal(){
        dialog.showModal()
+       }
+       function no(){
+       dialog.close()
        }
   
 
