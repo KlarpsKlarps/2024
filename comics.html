@@ -37,14 +37,20 @@
         <h1><img src="gifmaker_me (1).gif" style="width:20%;height:20%"></h1>
         <hr style="height:20px;border:none;color:#006e2a;background-color:#053b00;">
         <font style= "font-size:2vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h2>speed</h2>
-        <img src="comic1.jpg" style="width:30%;cursor:zoom-in" onclick=comicmodal()>
+        <img src="comic1.jpg" style="width:30%;height:30%;cursor:zoom-in" onclick=comicmodal()>
         <dialog id="comic">       
-               <img src="comic1.jpg">
+               <img src="comic1.jpg" style="width:70%;height:70%">
+               <button onclick=no() type="modalbutton">Close</button>
         </dialog>     
        <script>
               const dialog = document.getElementById("comic")
               function comicmodal(){
-              dialog.showModal()
+               dialog.showModal()
+              }
+              function no(){
+               dialog.close()
+              }       
+              
               }
        </script>
  </body>
