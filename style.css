@@ -29,6 +29,7 @@ head{
 
 
 .footer{
+     display:block;
      length: 400px;
     margin: none;
     padding: none;
