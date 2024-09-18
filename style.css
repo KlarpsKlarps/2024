@@ -29,11 +29,13 @@ head{
 
 
 .footer{
+    position: fixed;
     margin: none;
     padding: none;
     background:darkgreen;
     color:black;
-    
+    left: 0;
+    bottom: 0;
     text-align: center;
    
     
