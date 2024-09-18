@@ -29,7 +29,7 @@ head{
 
 
 .footer{
-    position: fixed;
+     length: 400px;
     margin: none;
     padding: none;
     background:darkgreen;
