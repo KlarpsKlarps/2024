@@ -38,11 +38,10 @@
         <hr style="height:20px;border:none;color:#006e2a;background-color:#053b00;">
         <font style= "font-size:2vw;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><h2>click to enlarge</h2>
         <img onclick=comicmodal() src="comic1.jpg" style="width:30%">
-        <img onclick=comicmodal() src="comic2.jpg" style="width:30.5%">
+        <img onclick=comicmodal2() src="comic2.jpg" style="width:30.5%">
         <dialog id="comic">
                <form>
                <img src="comic1.jpg" style="width:70%">
-               <img src="comic2.jpg" style="width:70%">
               <button onclick=no()>CLOSE</button>
                </form>
         </dialog>     
@@ -50,6 +49,22 @@
 const dialog = document.getElementById("comic")
               
        function comicmodal(){
+       dialog.showModal()
+       }
+       function no(){
+       dialog.close()
+       }
+
+        <dialog id="comic">
+               <form>
+               <img src="comic2.jpg" style="width:70%">
+              <button onclick=no()>CLOSE</button>
+               </form>
+        </dialog>     
+<script>
+const dialog = document.getElementById("comic")
+              
+       function comicmodal2(){
        dialog.showModal()
        }
        function no(){
