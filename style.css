@@ -13,6 +13,8 @@
 .deth{
      background-color:red;
      font-weight: bold;
+     height:300px;
+     width:300px;
 }
 
 .deth:hover{
