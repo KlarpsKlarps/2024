@@ -27,7 +27,7 @@ html{
 
 
 
-dialog::backdrop{
+dialog{
      background:green;
 
 }
