@@ -65,12 +65,13 @@ head{
 
 footer{
      display:block;
-     width: 400px;
+     width: 100%;
     margin: none;
     padding: none;
     background:darkgreen;
     color:black;
     text-align: center;
+     height: 100%;
 
    
     
