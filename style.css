@@ -1,3 +1,16 @@
+
+
+
+.ultimacy{
+     background-color:darkgreen;
+     font-weight: bold;
+}
+
+.ultimacy:hover{
+     background-color:#004526;
+}
+
+
 html{
      padding:0px;
      margin:0px;
