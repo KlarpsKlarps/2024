@@ -28,8 +28,8 @@ html{
 
 
 
-.dialog{
-     Background-color:green;
+dialog::backdrop{
+     background:green;
 
 }
 h2{
